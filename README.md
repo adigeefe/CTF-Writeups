@@ -4,22 +4,21 @@ This repository is a collection of all the writeups that I have written for each
 
 
 
-## Platforms & Writeups
+## Writeups & Platforms
 
+|  [Tryhackme Writeups](./tryhackme/)        | [Vulnhub Writeups](./vulnhub/) | 
+|:-----------:|:-----------:|
+| <a href="https://www.tryhackme.com"><img src="https://assets.tryhackme.com/img/favicon.png" width="50"></a> | <a href="https://www.vulnhub.com"><img src="https://www.vulnhub.com/static/img/favicon.ico" width="50"></a> |
 
-
-|  [Tryhackme](https://github.com/adigeefe/TryHackMe-WriteUp)        | [Vulnhub](./vulnhub/README.md) | 
-| ----------------------------------------------------- | ---------------- | 
-
-#### Tryhackme
-
-| Room Name                                             | Difficulty Level | Skills Focused                                               |
-| ----------------------------------------------------- | ---------------- | ------------------------------------------------------------ |
-| [Year of The Fox](./hard/yearofthefox/README.md) 	| Hard             | SSH-Tunneling, SQL RCE, PATH Variable Privesc                             |
-
-#### Vulnhub
+### Tryhackme
 
 | Room Name                                             | Difficulty Level | Skills Focused                                               |
 | ----------------------------------------------------- | ---------------- | ------------------------------------------------------------ |
-| [Dobby](./vulnhub/README.md) 	| Easy             | xx xx xx                             |
-| [Belatrix](./vulnhub/README.md) 	| Medium             | xx xx xx                              |
+| [Year of The Fox](./tryhackme/hard/yearofthefox) 	| Hard             | SSH-Tunneling, SQL RCE, PATH Variable Privesc                             |
+
+### Vulnhub
+
+| Room Name                                             | Difficulty Level | Skills Focused                                               |
+| ----------------------------------------------------- | ---------------- | ------------------------------------------------------------ |
+| [Dobby](./vulnhub/) 	| Easy             | xx xx xx                             |
+| [Belatrix](./vulnhub/) 	| Medium             | xx xx xx                              |
