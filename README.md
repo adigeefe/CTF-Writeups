@@ -14,7 +14,7 @@ This repository is a collection of all the writeups that I have written for each
 
 | Room Name                                             | Difficulty Level | Skills Focused                                               |
 | ----------------------------------------------------- | ---------------- | ------------------------------------------------------------ |
-| [Year of The Fox](./tryhackme/hard/yearofthefox) 	| Hard             | SSH-Tunneling, SQL RCE, PATH Variable Privesc                             |
+| :us: [Year of The Fox](./tryhackme/hard/yearofthefox) 	| Hard             | SSH-Tunneling, SQL RCE, PATH Variable Privesc                             |
 
 ### Vulnhub
 
