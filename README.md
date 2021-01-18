@@ -20,7 +20,7 @@ This repository is a collection of all the writeups that I have written for each
 
 | Room Name                                             | Difficulty Level | Skills Focused                                               |
 | ----------------------------------------------------- | ---------------- | ------------------------------------------------------------ |
-| [LazySysAdmin: 1](./vulnhub/lazyadmin) 	| Easy             | Samba   |
+| [LazySysAdmin: 1](./vulnhub/lazyadmin) 	| So Easy             | Samba   |
 | [Pwnlab](./vulnhub/pwnlab) 	| Easy             | LFI and File Upload, Path Abusing   |
 | [Dobby](./vulnhub/dobby) 	| Easy             | Wordpress, SHA-512 Cracking, Binary File Privesc                            |
 | [Belatrix](./vulnhub/belatrix) 	| Medium             | RCE with LFI & Log Poisoning, Sudo rights   |
