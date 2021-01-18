@@ -21,7 +21,7 @@ This repository is a collection of all the writeups that I have written for each
 | Room Name                                             | Difficulty Level | Skills Focused                                               |
 | ----------------------------------------------------- | ---------------- | ------------------------------------------------------------ |
 | :tr: [LazySysAdmin: 1](./vulnhub/lazyadmin) 	| So Easy             | Samba   |
-| :us: [Pwnlab](./vulnhub/pwnlab) 	| Easy             | LFI and File Upload, Path Abusing   |
-| :us: [Dobby](./vulnhub/dobby) 	| Easy             | Wordpress, SHA-512 Cracking, Binary File Privesc                            |
-| :us: [Belatrix](./vulnhub/belatrix) 	| Medium             | RCE with LFI & Log Poisoning, Sudo rights   |
-| :us: [Money Heist](./vulnhub/money_heist_1.1) 	| Medium             | xx xx xx x	x   |
+| :us: [Pwnlab]Not avaliable 	| Easy             | LFI and File Upload, Path Abusing   |
+| :us: [Dobby]Not avaliable 	| Easy             | Wordpress, SHA-512 Cracking, Binary File Privesc                            |
+| :us: [Belatrix]Not avaliable 	| Medium             | RCE with LFI & Log Poisoning, Sudo rights   |
+| :us: [Money Heist]Not avaliable 	| Medium             | xx xx xx x	x   |
