@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /old/
+Disallow: /test/
+Disallow: /TR2/
+Disallow: /Backnode_files/
+
+

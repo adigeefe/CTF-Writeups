@@ -1,0 +1,1 @@
+Prevent users from being able to view to web root using the local file browser

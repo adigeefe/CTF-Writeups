@@ -1,0 +1,8 @@
+http://lazy.vuln:80/wordpress
+http://lazy.vuln:80/test
+http://lazy.vuln:80/wp
+http://lazy.vuln:80/apache
+http://lazy.vuln:80/old
+http://lazy.vuln:80/javascript
+http://lazy.vuln:80/phpmyadmin
+http://lazy.vuln:80/server-status

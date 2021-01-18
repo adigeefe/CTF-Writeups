@@ -1,0 +1,57 @@
+# Nmap 7.91 scan initiated Mon Jan 18 17:28:04 2021 as: nmap -sC -sV -p- -oN log/nmap_initial lazy.vuln
+Nmap scan report for lazy.vuln (192.168.56.109)
+Host is up (0.00011s latency).
+Not shown: 65529 closed ports
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 b5:38:66:0f:a1:ee:cd:41:69:3b:82:cf:ad:a1:f7:13 (DSA)
+|   2048 58:5a:63:69:d0:da:dd:51:cc:c1:6e:00:fd:7e:61:d0 (RSA)
+|   256 61:30:f3:55:1a:0d:de:c8:6a:59:5b:c9:9c:b4:92:04 (ECDSA)
+|_  256 1f:65:c0:dd:15:e6:e4:21:f2:c1:9b:a3:b6:55:a0:45 (ED25519)
+80/tcp   open  http        Apache httpd 2.4.7 ((Ubuntu))
+|_http-generator: Silex v2.2.7
+| http-robots.txt: 4 disallowed entries 
+|_/old/ /test/ /TR2/ /Backnode_files/
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+|_http-title: Backnode
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 4.3.11-Ubuntu (workgroup: WORKGROUP)
+3306/tcp open  mysql       MySQL (unauthorized)
+6667/tcp open  irc         InspIRCd
+| irc-info: 
+|   server: Admin.local
+|   users: 1
+|   servers: 1
+|   chans: 0
+|   lusers: 1
+|   lservers: 0
+|   source ident: nmap
+|   source host: 192.168.56.1
+|_  error: Closing link: (nmap@192.168.56.1) [Client exited]
+Service Info: Hosts: LAZYSYSADMIN, Admin.local; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: mean: -20m02s, deviation: 5h46m24s, median: 2h59m57s
+|_nbstat: NetBIOS name: LAZYSYSADMIN, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.3.11-Ubuntu)
+|   Computer name: lazysysadmin
+|   NetBIOS computer name: LAZYSYSADMIN\x00
+|   Domain name: \x00
+|   FQDN: lazysysadmin
+|_  System time: 2021-01-19T03:28:15+10:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-01-18T17:28:15
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jan 18 17:28:27 2021 -- 1 IP address (1 host up) scanned in 22.45 seconds

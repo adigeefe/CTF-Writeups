@@ -1,0 +1,27 @@
+- Nikto v2.1.6/2.1.5
++ Target Host: lazy.vuln
++ Target Port: 80
++ GET The anti-clickjacking X-Frame-Options header is not present.
++ GET The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ GET The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ OSVDB-3268: GET /old/: Directory indexing found.
++ GET Entry '/old/' in robots.txt returned a non-forbidden or redirect HTTP code (200)
++ OSVDB-3268: GET /test/: Directory indexing found.
++ GET Entry '/test/' in robots.txt returned a non-forbidden or redirect HTTP code (200)
++ OSVDB-3268: GET /Backnode_files/: Directory indexing found.
++ GET Entry '/Backnode_files/' in robots.txt returned a non-forbidden or redirect HTTP code (200)
++ GET "robots.txt" contains 4 entries which should be manually viewed.
++ HEAD Apache/2.4.7 appears to be outdated (current is at least Apache/2.4.37). Apache 2.2.34 is the EOL for the 2.x branch.
++ GET Server may leak inodes via ETags, header found with file /, inode: 8ce8, size: 5560ea23d23c0, mtime: gzip
++ OPTIONS Allowed HTTP Methods: POST, OPTIONS, GET, HEAD 
++ OSVDB-3268: GET /apache/: Directory indexing found.
++ OSVDB-3092: GET /apache/: This might be interesting...
++ OSVDB-3092: GET /old/: This might be interesting...
++ GET Retrieved x-powered-by header: PHP/5.5.9-1ubuntu4.22
++ GET Uncommon header 'x-ob_mode' found, with contents: 0
++ OSVDB-3092: GET /test/: This might be interesting...
++ GET /info.php: Output from the phpinfo() function was found.
++ OSVDB-3233: GET /info.php: PHP is installed, and a test script which runs phpinfo() was found. This gives a lot of system information.
++ OSVDB-3233: GET /icons/README: Apache default file found.
++ OSVDB-5292: GET /info.php?file=http://cirt.net/rfiinc.txt?: RFI from RSnake's list (http://ha.ckers.org/weird/rfi-locations.dat) or from http://osvdb.org/
++ GET /phpmyadmin/: phpMyAdmin directory found
