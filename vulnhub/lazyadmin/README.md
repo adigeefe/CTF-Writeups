@@ -294,17 +294,25 @@ Kullanıcı adı ve şifrenin başarılı olduğunu görüyor ve hemen kullanıc
 Güzel haber tek kullanıcı biziz! Shell alabilmek için Appearance bölümünden Editor'e geldikten sonra 404.php dosyasını seçiyorum.
 
 ![](https://i.imgur.com/Ouxp4bL.png)
+
+
 Aşağdıdaki updatefile butonu dosyayı düzenleme iznimiz olduğunu söylüyor. Yani artık içerde olduğumuzu :) 
 
 ![](https://i.imgur.com/6dVENEL.png)
+
+
 Php reverse shell'i yapıştırdıktan sonra portumu dinlemeye başlıyorum.
 
 ![](https://i.imgur.com/L4z6VPN.png)
+
+
 Yukarıda hızlı olsun diye not aldığım adrese gidiyorum. 
 
 >http://lazy.vuln/wordpress/wp-content/themes/twentyfifteen/404.php
 
 ![](https://i.imgur.com/02XUozv.png)
+
+
 İçerdeyiz! Hızlıca tty spawnlayıp basit kontrolleri yapıyorum.
 
 Kontrollerde linux sürümümüzün 4.4.0-31-generic olduğunu görüyorum ve 
@@ -335,12 +343,18 @@ Ve akıllı abimizin şifresini buraya bıraktığını görüyoruz ve bunu kont
 >su togie
 
 ![](https://i.imgur.com/u3eLoBv.png)
+
+
 ```<censored>``` şifresini girdiğimde işe yaradığını görüyorum
 
 ![](https://i.imgur.com/7UIUsrO.png)
+
+
 sudo -l komutu ile herşeye yetkim olduğunu görüyorum yani ctf'in sonuna geldiğimizi.
 
 
 ![](https://i.imgur.com/Wquq5as.png)
+
+
 sudo su diyerek roota geçiyorum
 GG!
