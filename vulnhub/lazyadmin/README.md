@@ -202,6 +202,7 @@ Bu arada 404.php lokasyonunu not defterine geçiriyorum ki shell için hızımı
 -------------------
 
 >┌──(adigeefe💀kali)-[ctf/oscp/lazyadmin]
+
 >└─$ smbmap -H  lazy.vuln
 ```
 [+] Guest session   	IP: lazy.vuln:445	Name: unknown                                           
@@ -214,7 +215,9 @@ Bu arada 404.php lokasyonunu not defterine geçiriyorum ki shell için hızımı
 smbmap komutunu çalıştırdığımızda "share$"'in read only olduğunu görebiliyoruz. Hemen smbclient ile incelemek istiyorum.
 
 >┌──(adigeefe💀kali)-[/ctf/oscp/lazyadmin]
+
 >└─$ smbclient \\\\lazy.vuln\\share$
+
 ```
 Enter WORKGROUP\adigeefe's password: 
 Try "help" to get a list of possible commands.
@@ -324,6 +327,7 @@ Fakat birkaç denemeden sonra işe yaramadığını fark ediyorum. Ve tamamen ak
 get komutu ile çektinten sonra dosyaları kontrol ediyorum.
 
 >┌──(adigeefe💀kali)-[~/ctf/oscp/lazyadmin/smb]
+
 >└─$ cat deets.txt     
 ```
 CBF Remembering all these passwords.
@@ -333,6 +337,7 @@ Remember to remove this file and update your password after we push out the serv
 Password <censored>
 ```
 >┌──(adigeefe💀kali)-[~/ctf/oscp/lazyadmin/smb]
+
 >└─$ cat todolist.txt 
 ```
 Prevent users from being able to view to web root using the local file browser
