@@ -1,3 +1,10 @@
+# Vulnhub: LazySysAdmin: 1
+# 18.01.2021
+
+### Nmap'den başlıyalım
+
+----------------
+
 # Nmap
 ```
 # Nmap 7.91 scan initiated Mon Jan 18 17:28:04 2021 as: nmap -sC -sV -p- -oN log/nmap_initial lazy.vuln
