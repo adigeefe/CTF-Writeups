@@ -9,7 +9,7 @@ This repository is a collection of all the writeups that I have written for each
 ## Rooms
 
 | Room Name                                             | Difficulty Level | Skills Focused                                               |
-| ------------------------------------------------------ | ---------------- | ------------------------------------------------------------ |
+| ----------------------------------------------------- | ---------------- | ------------------------------------------------------------ |
 | [Year of The Fox](./hard/yearofthefox/README.md) 	| Hard             | SSH-Tunneling, SQL RCE, PATH Variable Privesc                             |
 
 
